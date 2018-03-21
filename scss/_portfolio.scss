@@ -1,74 +1,28 @@
-/* ------------------------------
-Portfolio Section
---------------------------------*/
-#portfolio {
-    background: #fff;
-    padding: 80px 0;
+#spacer {
+    height: 5em;
+    width: 100%;
+    position: relative;
 }
-  
-#portfolio .portfolio-item {
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  height: 260px;
-  width: 100%;
-  display: table;
-  overflow: hidden;
-  margin-bottom: 30px;
+#projectimage{
+    background-image: url("../assets/family2016.jpg");
+    background-position-x: -10em;
+    background-position-y: -10em;
+    object-fit: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 17em;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    opacity: 0.275;
 }
-  
-#portfolio .portfolio-item .details {
-    height: 260px;
-    background: #fff;
-    display: table-cell;
-    vertical-align: middle;
-    opacity: 0;
-    transition: 0.3s;
-    text-align: center;
+#projectlabel {
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20em;
+    opacity: 0.85;
+    position: absolute;
+    bottom: -0.285em;
+    left: .5em;
 }
-  
-#portfolio .portfolio-item .details h4 {
-    font-size: 25px;
-    transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
-    transform: translate3d(0, -15px, 0);
-    font-weight: 700;
-    color: #000;
-}
-  
-#portfolio .portfolio-item .details span {
-    display: block;
-    color: $gray;
-    font-size: 18px;
-    transition: opacity 0.3s, -webkit-transform 0.3s;
-    transition: transform 0.3s, opacity 0.3s;
-    transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
-    -webkit-transform: translate3d(0, 15px, 0);
-    transform: translate3d(0, 15px, 0);
-}
-  
-#portfolio .portfolio-item:hover .details {
-    opacity: 0.6;
-}
-  
-#portfolio .portfolio-item:hover .details h4 {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-}
-  
-  #portfolio .portfolio-item:hover .details span {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-  
-  .image-link {
-    cursor: -webkit-zoom-in;
-    cursor: -moz-zoom-in;
-    cursor: zoom-in;
-  }
-  
-  /* aligns caption to center */
-  .mfp-title {
-    text-align: center;
-    padding: 5px 5px;
-  }

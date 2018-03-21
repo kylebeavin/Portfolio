@@ -1,17 +1,29 @@
-
-/****************************
-About Section
-****************************/
-#about {
-    // background: $blue-green;
-    background: url('../assets/logo/blue-green-bg.jpg') no-repeat center center;
-    font-size: 18px;
-
+#spacer {
+    height: 5em;
+    width: 100%;
+    position: relative;
 }
-
-.about-panel {
-    visibility: visible; 
-    -webkit-animation-delay: 0.1s; 
-    -moz-animation-delay: 0.1s; 
-    animation-delay: 0.1s;
+#aboutimage{
+    background-image: url("../assets/family2.jpg");
+    background-position-x: 0em;
+    background-position-y: -18em;
+    object-fit: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 17em;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    opacity: 0.275;
+    background-size: cover;
+}
+#aboutlabel {
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20em;
+    opacity: 0.75;
+    position: absolute;
+    bottom: -0.285em;
+    left: 1.075em;
 }
