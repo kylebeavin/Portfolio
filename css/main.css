@@ -1,5 +1,33 @@
 /* Variables used throughout will go here. */
 /* EFA Color pallete */
+p {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+#spacer {
+  height: 5em;
+  width: 100%;
+  position: relative; }
+
+#spacer {
+  height: 5em;
+  width: 100%;
+  position: relative; }
+
+#spacer {
+  height: 5em;
+  width: 100%;
+  position: relative; }
+
+#spacer {
+  height: 5em;
+  width: 100%;
+  position: relative; }
+
+#spacer {
+  height: 5em;
+  width: 100%;
+  position: relative; }
+
 .navbar {
   background-color: #18185e; }
 
@@ -41,7 +69,8 @@ container-fluid:hover {
   padding: 0;
   margin: 0;
   position: relative;
-  opacity: 0.275; }
+  opacity: 0.275;
+  background-size: cover; }
 
 #homelabel {
   color: whitesmoke;
@@ -69,7 +98,8 @@ container-fluid:hover {
   padding: 0;
   margin: 0;
   position: relative;
-  opacity: 0.275; }
+  opacity: 0.275;
+  background-size: cover; }
 
 #projectlabel {
   color: whitesmoke;
@@ -108,3 +138,27 @@ container-fluid:hover {
   position: absolute;
   bottom: -0.285em;
   left: 1.075em; }
+
+#contactimage {
+  background-image: url("../assets/family1.jpg");
+  background-position-x: 0em;
+  background-position-y: -18em;
+  object-fit: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 17em;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  opacity: 0.275;
+  background-size: cover; }
+
+#contactlabel {
+  color: whitesmoke;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20em;
+  opacity: 0.75;
+  position: absolute;
+  bottom: -0.285em;
+  left: .6em; }
