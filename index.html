@@ -17,35 +17,37 @@
    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <ul>
-                <li><a href="#"></a>Home</li>
-                <li><a href="#"></a>Projects</li>
-                <li><a href="#"></a>About</li>
-                <li><a href="#"></a>Contact</li>
+                <li><a href="#Home"></a>Home</li>
+                <li><a href="#Projects"></a>Projects</li>
+                <li><a href="#About"></a>About</li>
+                <li><a href="#Contact"></a>Contact</li>
             </ul>
         </div>
     </nav> 
+    <div id="spacer"></div>
+
     <!-- HOME SECTION -->
     <header>
-        <div id="spacer"></div>
-    <div id="homeimage" class="col-xs-12">
-        <div id="homelabel">Home</div>
-    </div>
-    <div id="spacer1"></div>
-    <div class="col-xs-3"></div>
-        <div class="col-xs-6">
-            <p>"Hello World"</p>
-            <p>Welcome to the landing page of my first portfolio. Right now it is still a work in progress, I do plan on adding to it as I go. My website tells a story about myself, my professional experience and my personal journey as a developer.</p>
-            <p>This site was constructed using modern front end development tools such as Bootstrap 3.0, Gulp, SASS and many more to come! The overall experience that I am going for is a clean, sleek and overall professional appearance.</p>
-            <p>I have tailored my portfolio around my visions and values. Throughout my story I have developed many skills and built many relationships, as you can see I have background images of my family portraits to highlight my devotion as a great father, husband and overall family man.</p>
-        </div>
-        <div class="col-xs-3"></div>
-    </header>
-    <div id="spacer"></div>
-    <!-- PROJECT SECTION -->
-    <section>
+        <section>
+                <a href="#"id="Home"></a>
+            <div id="homeimage" class="col-xs-12">
+                <div id="homelabel">Home</div>
+            </div>
+            <!-- <a name="section1"></a> -->      
+            <div class="col-xs-3"></div>
+            <div class="col-xs-6">
+                <p>"Hello World"</p>
+                <p>Welcome to the landing page of my first portfolio. Right now it is still a work in progress, I do plan on adding to it as I go. My website tells a story about myself, my professional experience and my personal journey as a developer.</p>
+                <p>This site was constructed using modern front end development tools such as Bootstrap 3.0, Gulp, SASS and many more to come! The overall experience that I am going for is a clean, sleek and overall professional appearance.</p>
+                <p>I have tailored my portfolio around my visions and values. Throughout my story I have developed many skills and built many relationships, as you can see I have background images of my family portraits to highlight my devotion as a great father, husband and overall family man.</p>
+            </div>
+            <div class="col-xs-3"></div>
+        </section>
+        </header>
+        <!-- PROJECT SECTION -->
+    <section id="section2">
         <div class="container-fluid" id="projectimage">
             <div id="projectlabel">Projects</div>
-            <div id="spacer"></div>
         </div>
         <div class="col-xs-3"></div>
         <div class="col-xs-6">
@@ -59,8 +61,7 @@
             </p>
         </div>
         <div class="col-xs-3"></div>
-    </section>
-    <div id="spacer"></div>
+    </section id="section3">
     <!-- ABOUT SECTION -->
     <section>
         <div class="container-fluid" id="aboutimage">
@@ -82,19 +83,21 @@
         </div>
         <div class="col-xs-3"></div>
     </section>
-    <div id="spacer"></div>
     <!-- CONTACT SECTION -->
-    <section>
+    <section id="section4">
         <div class="container-fluid" id="contactimage">
             <div id="contactlabel">Contact</div>
-            <div id="spacer"></div>
         </div>
-        <div class="col-xs-3"></div>
+        <div class="col-xs-3">
+            <!-- <div id="headshot"></div> -->
+        </div>
         <div class="col-xs-6">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius aliquid inventore harum recusandae, repellat atque incidunt dolorum consectetur, quasi autem odio necessitatibus minima sequi a nihil accusantium magni consequuntur facere.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe mollitia nisi placeat fugiat alias quibusdam error consequatur rem deleniti illo autem hic, aliquid voluptas odio tempora sequi dolorum laudantium incidunt.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet culpa molestias nostrum vitae vero. Quibusdam est optio autem iusto, nesciunt quasi amet exercitationem alias soluta, rerum eius labore eum iste.</p>    
-                <div id="spacer"></div>
+                <p>"Baz Qux"</p>
+                <p>Thank you for exploring my website. I am looking forward to hearing from you and all the great feedback. Please feel free to contact me anytime on my cell phone! Or use the form below. </p>
+                <p>Kyle Beavin<br> 
+                Cell: 614-507-9548<br>
+                Email: kylebeavin@gmail.com
+                </p>
             <form action="https://formspree.io/kylebeavin@gmail.com" method="POST">
                 <div class="control-group">
                     <div class="form-group">
@@ -129,7 +132,15 @@
     </section>
     <!-- FOOTER SECTION -->
     <footer>
-
+            <div class="container-fluid">
+                <div class="col-xs-12">
+                    <p class="footersection">
+                        <a href="#">Back to top</a>
+                    </p>
+                    <p>&copy; 2018 Kyle Beavin, Personal Template built during my first acheivements at Eleven Fifty Academy &middot;
+                    <p>This template is owned by &copy; Eleven Fifty Academy, but is free for you to use and make customer alterations!</p>
+                </div>
+            </div>
     </footer>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>

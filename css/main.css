@@ -1,5 +1,8 @@
 /* Variables used throughout will go here. */
 /* EFA Color pallete */
+body {
+  padding-top: 40px; }
+
 p {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
 
@@ -8,25 +11,8 @@ p {
   width: 100%;
   position: relative; }
 
-#spacer {
-  height: 5em;
-  width: 100%;
-  position: relative; }
-
-#spacer {
-  height: 5em;
-  width: 100%;
-  position: relative; }
-
-#spacer {
-  height: 5em;
-  width: 100%;
-  position: relative; }
-
-#spacer {
-  height: 5em;
-  width: 100%;
-  position: relative; }
+section {
+  padding-top: 40px; }
 
 .navbar {
   background-color: #18185e; }
@@ -162,3 +148,6 @@ container-fluid:hover {
   position: absolute;
   bottom: -0.285em;
   left: .6em; }
+
+.footersection {
+  background-color: #18185e; }
