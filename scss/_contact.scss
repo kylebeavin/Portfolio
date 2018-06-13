@@ -1,30 +1,44 @@
-#contactimage{
-    background-image: url("../assets/family1.jpg");
-    background-position-x: 0em;
-    background-position-y: -18em;
-    object-fit: cover;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 17em;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    opacity: 0.275;
-    background-size: cover;
-}
-#contactlabel {
-    // color: whitesmoke;
+@media only screen and (max-width: 768px) {
+    #contactimage {
+      background-image: url("../assets/family1.jpg");
+      /* background-position-x: 0em; */
+      /* background-position-y: -20em; */
+      /* object-fit: cover; */
+      overflow: hidden;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 17em;
+      padding: 0;
+      margin: 0;
+      position: relative;
+      /* opacity: 0.275; */
+      background-size: cover; 
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    #contactimage {
+      background-image: url("../assets/family1.jpg");
+      /* background-position-x: 0em; */
+      background-position-y: -25em;
+      /* object-fit: cover; */
+      overflow: hidden;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 17em;
+      padding: 0;
+      margin: 0;
+      position: relative;
+      /* opacity: 0.275; */
+      background-size: cover; 
+    }
+  }
+    #contactlabel {
+      color: whitesmoke;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20em;
     opacity: 0.75;
     position: absolute;
     bottom: -0.285em;
-    left: .6em;
-}
-// #headshot {
-//     background-image: url("../assets/BeavinKyle.jpeg");
-//     position: relative;
-//     height: 50%;
-//     width: 40%;
-// }
+    left: .6em; }
+  

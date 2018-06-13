@@ -1,30 +1,60 @@
-#spacer {
-    height: 5em;
-    width: 100%;
-    position: relative;
-}
-#homeimage{
-    background-image: url("../assets/family2017.jpg");
-    background-position-x: -10em;
-    background-position-y: -10em;
-    object-fit: cover;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 17em;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    opacity: 0.275;
-    background-size: cover;
-
-}
-#homelabel {
-    // color: whitesmoke;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20em;
-    opacity: 0.75;
-    position: absolute;
-    bottom: -0.285em;
-    left: 1em;
-}
+@media only screen and (max-width: 768px) {
+    #homeimage {    
+      background-image: url("../assets/family2017.jpg");
+      /* background-position-x: -10em; */
+      /* background-position-y: -10em;           
+      /* object-fit: cover; */
+      overflow: hidden;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 17em;
+      padding: 0;
+      margin: 0;
+      position: relative;
+      /* opacity: 0.275; */
+      background-size: cover; 
+      }
+    }
+  
+    @media only screen and (min-width: 768px) {
+      #homeimage {    
+        background-image: url("../assets/family2017.jpg");
+        /* background-position-x: -10em; */
+        background-position-y: -12em;            
+        /* object-fit: cover; */
+        overflow: hidden;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 17em;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        /* opacity: 0.275; */
+        background-size: cover; 
+      }
+    }
+  
+  @media only screen and (max-width: 768px) {
+    #homelabel {
+      color: whitesmoke;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 11em;
+      opacity: 0.75;
+      position: absolute;
+      /* bottom: -0.285em; */
+      /* left: 1em;  */
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    #homelabel {
+      color: whitesmoke;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 20em;
+      opacity: 0.75;
+      position: absolute;
+      bottom: -0.285em;
+      left: 1em; 
+    }
+  }
+  
