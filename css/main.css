@@ -116,7 +116,7 @@ container-fluid:hover {
   #projectimage {
     background-image: url("../assets/family2016.jpg");
     /* background-position-x: -10em; */
-    background-position-y: -10em;
+    background-position-y: -16em;
     /* object-fit: cover; */
     overflow: hidden;
     background-repeat: no-repeat;
@@ -165,7 +165,7 @@ container-fluid:hover {
   #aboutimage {
     background-image: url("../assets/family2.jpg");
     /* background-position-x: 0em; */
-    background-position-y: -18em;
+    background-position-y: -25em;
     /* object-fit: cover; */
     overflow: hidden;
     background-repeat: no-repeat;
@@ -203,7 +203,6 @@ container-fluid:hover {
     position: relative;
     /* opacity: 0.275; */
     background-size: cover; 
-    zoom: 100%;
   }
 }
 
@@ -211,7 +210,7 @@ container-fluid:hover {
   #contactimage {
     background-image: url("../assets/family1.jpg");
     /* background-position-x: 0em; */
-    background-position-y: -20em;
+    background-position-y: -25em;
     /* object-fit: cover; */
     overflow: hidden;
     background-repeat: no-repeat;
@@ -222,7 +221,6 @@ container-fluid:hover {
     position: relative;
     /* opacity: 0.275; */
     background-size: cover; 
-    zoom: 150%;
   }
 }
   #contactlabel {
