@@ -1,3 +1,5 @@
+/* Variables used throughout will go here. */
+/* EFA Color pallete */
 body {
   padding-top: 40px; }
 
@@ -12,12 +14,11 @@ p {
 section {
   padding-top: 40px; }
 
+#blue {
+  color: #18185e; }
+
 .navbar {
   background-color: #18185e; }
-
-.navbarText {
-  color: white;
-}
 
 ul {
   background-color: #18185e; }
@@ -31,25 +32,35 @@ li {
   display: block;
   padding: 14px 16px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: white;
   text-align: center; }
 
 li:hover {
   background-color: #282896; }
 
-container-fluid:hover {
+#navback:hover {
   background-color: #282896; }
 
-#spacer {
-  height: 5em;
-  width: 100%;
-  position: relative; }
-
 @media only screen and (max-width: 768px) {
-  #homeimage {    
+  #homeimage {
     background-image: url("../assets/family2017.jpg");
     /* background-position-x: -10em; */
     /* background-position-y: -10em;           
+      /* object-fit: cover; */
+    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 17em;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    /* opacity: 0.275; */
+    background-size: cover; } }
+
+@media only screen and (min-width: 768px) {
+  #homeimage {
+    background-image: url("../assets/family2017.jpg");
+    /* background-position-x: -10em; */
+    background-position-y: -12em;
     /* object-fit: cover; */
     overflow: hidden;
     background-repeat: no-repeat;
@@ -59,41 +70,27 @@ container-fluid:hover {
     margin: 0;
     position: relative;
     /* opacity: 0.275; */
-    background-size: cover; 
-    }
-  }
-  @media only screen and (min-width: 768px) {
+    background-size: cover; } }
 
-    #homeimage {    
-      background-image: url("../assets/family2017.jpg");
-      /* background-position-x: -10em; */
-      background-position-y: -12em;            
-      /* object-fit: cover; */
-      overflow: hidden;
-      background-repeat: no-repeat;
-      width: 100%;
-      height: 17em;
-      padding: 0;
-      margin: 0;
-      position: relative;
-      /* opacity: 0.275; */
-      background-size: cover; 
-      }
-    }
-      
-#homelabel {
-  color: whitesmoke;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 20em;
-  opacity: 0.75;
-  position: absolute;
-  bottom: -0.285em;
-  left: 1em; }
+@media only screen and (max-width: 768px) {
+  #homelabel {
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 11em;
+    opacity: 0.75;
+    position: absolute;
+    /* bottom: -0.285em; */
+    /* left: 1em;  */ } }
 
-#spacer {
-  height: 5em;
-  width: 100%;
-  position: relative; }
+@media only screen and (min-width: 768px) {
+  #homelabel {
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20em;
+    opacity: 0.75;
+    position: absolute;
+    bottom: -0.285em;
+    left: 1em; } }
 
 @media only screen and (max-width: 768px) {
   #projectimage {
@@ -109,9 +106,8 @@ container-fluid:hover {
     margin: 0;
     position: relative;
     /* opacity: 0.275; */
-    background-size: cover; 
-    }
-  }
+    background-size: cover; } }
+
 @media only screen and (min-width: 768px) {
   #projectimage {
     background-image: url("../assets/family2016.jpg");
@@ -126,22 +122,16 @@ container-fluid:hover {
     margin: 0;
     position: relative;
     /* opacity: 0.275; */
-    background-size: cover; 
-    }
-}
-  #projectlabel {
-    color: whitesmoke;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20em;
-    opacity: 0.85;
-    position: absolute;
-    bottom: -0.285em;
-    left: .5em; }
-    
-    #spacer {
-  height: 5em;
-  width: 100%;
-  position: relative; }
+    background-size: cover; } }
+
+#projectlabel {
+  color: whitesmoke;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20em;
+  opacity: 0.85;
+  position: absolute;
+  bottom: -0.285em;
+  left: .5em; }
 
 @media only screen and (max-width: 768px) {
   #aboutimage {
@@ -157,9 +147,7 @@ container-fluid:hover {
     margin: 0;
     position: relative;
     /* opacity: 0.275; */
-    background-size: cover; 
-    }
-  }
+    background-size: cover; } }
 
 @media only screen and (min-width: 768px) {
   #aboutimage {
@@ -175,9 +163,7 @@ container-fluid:hover {
     margin: 0;
     position: relative;
     /* opacity: 0.275; */
-    background-size: cover; 
-    }
-}
+    background-size: cover; } }
 
 #aboutlabel {
   color: whitesmoke;
@@ -202,9 +188,7 @@ container-fluid:hover {
     margin: 0;
     position: relative;
     /* opacity: 0.275; */
-    background-size: cover; 
-  }
-}
+    background-size: cover; } }
 
 @media only screen and (min-width: 768px) {
   #contactimage {
@@ -220,11 +204,10 @@ container-fluid:hover {
     margin: 0;
     position: relative;
     /* opacity: 0.275; */
-    background-size: cover; 
-  }
-}
-  #contactlabel {
-    color: whitesmoke;
+    background-size: cover; } }
+
+#contactlabel {
+  color: whitesmoke;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 20em;
   opacity: 0.75;
