@@ -45,11 +45,11 @@ container-fluid:hover {
   width: 100%;
   position: relative; }
 
-#homeimage {
+ #homeimage {    /* this setup looks right full screen */
   background-image: url("../assets/family2017.jpg");
-  background-position-x: -10em;
-  background-position-y: -10em;
-  object-fit: cover;
+  /* background-position-x: -10em; */
+  background-position-y: -10em;            /* comment this out to look good mobile */
+  /* object-fit: cover; */
   overflow: hidden;
   background-repeat: no-repeat;
   width: 100%;
@@ -57,7 +57,7 @@ container-fluid:hover {
   padding: 0;
   margin: 0;
   position: relative;
-  opacity: 0.275;
+  /* opacity: 0.275; */
   background-size: cover; }
 
 #homelabel {
@@ -86,7 +86,7 @@ container-fluid:hover {
   padding: 0;
   margin: 0;
   position: relative;
-  opacity: 0.275;
+  /* opacity: 0.275; */
   background-size: cover; }
 
 #projectlabel {
@@ -115,7 +115,7 @@ container-fluid:hover {
   padding: 0;
   margin: 0;
   position: relative;
-  opacity: 0.275;
+  /* opacity: 0.275; */
   background-size: cover; }
 
 #aboutlabel {
@@ -130,7 +130,7 @@ container-fluid:hover {
 #contactimage {
   background-image: url("../assets/family1.jpg");
   background-position-x: 0em;
-  background-position-y: -18em;
+  background-position-y: -20em;
   object-fit: cover;
   overflow: hidden;
   background-repeat: no-repeat;
@@ -139,7 +139,7 @@ container-fluid:hover {
   padding: 0;
   margin: 0;
   position: relative;
-  opacity: 0.275;
+  /* opacity: 0.275; */
   background-size: cover; }
 
 #contactlabel {
