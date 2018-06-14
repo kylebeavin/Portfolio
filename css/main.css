@@ -6,11 +6,6 @@ body {
 p {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
 
-#spacer {
-  height: 5em;
-  width: 100%;
-  position: relative; }
-
 section {
   padding-top: 40px; }
 
@@ -20,25 +15,17 @@ section {
 .navbar {
   background-color: #18185e; }
 
-ul {
-  background-color: #18185e; }
-
-nav {
-  background-color: #18185e; }
-
-li {
+.navbarLI {
   float: left;
   width: 25%;
-  display: block;
   padding: 14px 16px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  text-align: center; }
+  text-align: center;
+  color: whitesmoke; }
 
-li:hover {
-  background-color: #282896; }
-
-#navback:hover {
-  background-color: #282896; }
+.navbarLI:hover {
+  background-color: #282896;
+  color: whitesmoke; }
 
 @media only screen and (max-width: 768px) {
   #homeimage {
@@ -78,19 +65,21 @@ li:hover {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 11em;
     opacity: 0.75;
-    position: absolute;
+    position: relative;
     /* bottom: -0.285em; */
-    /* left: 1em;  */ } }
+    /* left: 1em;  */
+    height: 100%; } }
 
 @media only screen and (min-width: 768px) {
   #homelabel {
     color: whitesmoke;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20em;
+    font-size: 200px;
     opacity: 0.75;
-    position: absolute;
-    bottom: -0.285em;
-    left: 1em; } }
+    position: relative;
+    height: 100%;
+    text-align: center;
+    margin: auto auto; } }
 
 @media only screen and (max-width: 768px) {
   #projectimage {
@@ -124,14 +113,27 @@ li:hover {
     /* opacity: 0.275; */
     background-size: cover; } }
 
-#projectlabel {
-  color: whitesmoke;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 20em;
-  opacity: 0.85;
-  position: absolute;
-  bottom: -0.285em;
-  left: .5em; }
+@media only screen and (max-width: 768px) {
+  #projectlabel {
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 8em;
+    opacity: 0.75;
+    position: relative;
+    /* bottom: -0.285em; */
+    /* left: 1em;  */
+    height: 100%; } }
+
+@media only screen and (min-width: 768px) {
+  #projectlabel {
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 200px;
+    opacity: 0.75;
+    position: relative;
+    height: 100%;
+    text-align: center;
+    margin: auto auto; } }
 
 @media only screen and (max-width: 768px) {
   #aboutimage {
@@ -165,14 +167,26 @@ li:hover {
     /* opacity: 0.275; */
     background-size: cover; } }
 
-#aboutlabel {
-  color: whitesmoke;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 20em;
-  opacity: 0.75;
-  position: absolute;
-  bottom: -0.285em;
-  left: 1.075em; }
+@media only screen and (max-width: 768px) {
+  #aboutlabel {
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 11em;
+    opacity: 0.75;
+    position: relative;
+    /* bottom: -0.285em; */
+    /* left: 1em;  */
+    height: 100%; } }
+
+@media only screen and (min-width: 768px) {
+  #aboutlabel {
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 200px;
+    opacity: 0.75;
+    position: relative;
+    height: 100%;
+    text-align: center; } }
 
 @media only screen and (max-width: 768px) {
   #contactimage {
@@ -206,14 +220,32 @@ li:hover {
     /* opacity: 0.275; */
     background-size: cover; } }
 
-#contactlabel {
-  color: whitesmoke;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 20em;
-  opacity: 0.75;
-  position: absolute;
-  bottom: -0.285em;
-  left: .6em; }
+@media only screen and (max-width: 768px) {
+  #contactlabel {
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 8em;
+    opacity: 0.75;
+    position: relative;
+    /* bottom: -0.285em; */
+    /* left: 1em;  */
+    height: 100%; } }
+
+@media only screen and (min-width: 768px) {
+  #contactlabel {
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 200px;
+    opacity: 0.75;
+    position: relative;
+    height: 100%;
+    text-align: center; } }
 
 .footersection {
   background-color: #18185e; }
+
+.footerText {
+  color: whitesmoke; }
+
+.footerText:hover {
+  color: whitesmoke; }

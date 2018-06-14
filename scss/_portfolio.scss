@@ -32,12 +32,34 @@
       background-size: cover; 
       }
   }
+  @media only screen and (max-width: 768px) {
     #projectlabel {
       color: whitesmoke;
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      font-size: 20em;
-      opacity: 0.85;
-      position: absolute;
-      bottom: -0.285em;
-      left: .5em; }
+      font-size: 8em;
+      opacity: 0.75;
+      position: relative;
+      /* bottom: -0.285em; */
+      /* left: 1em;  */
+      height: 100%;
+
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    #projectlabel {
+      color: whitesmoke;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      // font-size: 20em;
+      font-size: 200px;
+      opacity: 0.75;
+      position: relative;
+      height: 100%;
+      text-align: center;
+      // bottom: -0.285em;
+      // left: 1em;
+      // width: 50%;
+      margin: auto auto;
+    }
+  }
   
