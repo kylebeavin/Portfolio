@@ -34,12 +34,33 @@
       }
   }
   
-  #aboutlabel {
-    color: whitesmoke;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20em;
-    opacity: 0.75;
-    position: absolute;
-    bottom: -0.285em;
-    left: 1.075em; }
+  @media only screen and (max-width: 768px) {
+    #aboutlabel {
+      color: whitesmoke;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 11em;
+      opacity: 0.75;
+      position: relative;
+      /* bottom: -0.285em; */
+      /* left: 1em;  */
+      height: 100%;
+
+    }
+  }
   
+  @media only screen and (min-width: 768px) {
+    #aboutlabel {
+      color: whitesmoke;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      // font-size: 20em;
+      font-size: 200px;
+      opacity: 0.75;
+      position: relative;
+      height: 100%;
+      text-align: center;
+      // bottom: -0.285em;
+      // left: 1em;
+      // width: 50%;
+      // margin: auto auto;
+    }
+  }
